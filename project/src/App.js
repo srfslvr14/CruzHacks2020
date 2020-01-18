@@ -13,8 +13,6 @@ class App extends Component {
 
         <Header />
         <Body />
-        
-        <img  src={require('./Component/photos/elephant.jpg')} />
 
       </div>
     );

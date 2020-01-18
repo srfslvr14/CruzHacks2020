@@ -10,7 +10,7 @@ function Cards() {
         <div class="card-deck container">
             <div class="card">
                 <div class="card-img">
-                    <img variant="top" src="./Component/photos/gorilla.jpg" />
+                    <img variant="top" src={require('../Component/Images/gorilla.jpg')} style={{width: 325, height: 225}} />
                 </div>
                 <div class="card-body">
                     <h1>girl hilla</h1>
@@ -38,7 +38,7 @@ function Cards() {
                     <img variant="top" src={require('../Component/photos/elephant.jpg')} style={{width: 325, height: 225}}/>
                 </div>
                 <div class="card-body">
-                    <h2>Elephanté</h2>
+                    <h1>Elephanté</h1>
                     <p>
                         Imagine being an elephant and someone just walks up and cuts off your mf tusks LMAO.
                     </p>
