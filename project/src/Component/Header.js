@@ -10,6 +10,9 @@ function Header() {
             placeholder
           </h1>
         </div>
+        <div className = "Header_2">
+            <p> header number 2 </p>
+        </div>
       </div>
     );
 }

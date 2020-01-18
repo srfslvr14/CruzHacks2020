@@ -4,8 +4,8 @@ import Cards from '../Component/Cards';
 
 function Body() {
     return (
-        <div class = "Body">
-            <div class="position-absolute">
+        <div class = "Body container" styles="padding-top: 5px">
+            <div class="position-relative">
                 <div class="btn-group" role="group" aria-label="buttons">
                     <div>
                     <a class="btn btn-secondary btn-lg" href="https://media1.giphy.com/media/ejm8tkFonl8o8/giphy.gif"
@@ -21,7 +21,6 @@ function Body() {
                     </div>
                 </div>
             </div>
-
             <Cards/>
         </div>
     );
