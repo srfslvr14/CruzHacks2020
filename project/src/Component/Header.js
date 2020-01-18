@@ -1,12 +1,13 @@
 import React from 'react';
+import earth from './earth.gif';
 
 function Header() {
     return (
-        <div class = "Actual_header">
+        <div class = "Header">
+          <img src={earth} className="App-logo" alt="logo" />
           <h1>
-            Header
+            Captain planet
           </h1>
-          <p>Headers are dumb</p>
         </div>
     );
 }
