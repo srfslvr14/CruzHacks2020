@@ -59,6 +59,18 @@
   border-top: none;
 }
 
+/* for future reference
+   #6D767B - HOME
+   #52A450 - LAND
+   #2E7DF6 - SEA
+   #3B8294 - SKY
+   #B8353A - DONATE */
+
+.Body {
+  background-color: #6D767B;
+  min-height: 100vh;
+}
+
 .App-link {
   color: #61dafb;
 }

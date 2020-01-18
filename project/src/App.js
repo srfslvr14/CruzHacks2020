@@ -3,6 +3,7 @@ import './App.css';
 
 import { Component } from 'react';
 import Header from './Component/Header';
+import Body from './Component/Body';
 
 class App extends Component {
   render() {
@@ -11,24 +12,11 @@ class App extends Component {
 
         <Header />
 
-        <header className="App-header">
-          
-          <p>
-            Dank memes
-          </p>
-          <a
-            className="App-link"
-            href="https://www.omfgdogs.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Justice for the health of earth
-          </a>
-        </header>
+        <Body />
 
       </div>
     );
   }
 }
-// hello world
+
 export default App;
