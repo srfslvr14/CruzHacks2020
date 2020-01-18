@@ -4,17 +4,22 @@ import earth from './earth.gif';
 function Header() {
     return (
       <div>
-        <div class = "Header">
+        <div className = "Header">
           <img src={earth} className="App-logo" alt="logo" />
           <h1>
             Captain planet
           </h1>
         </div>
 
-        <div class = "Buttons">
-          <a href='https://www.freecodecamp.org/'><button>Land</button></a>
-          <a href='https://www.freecodecamp.org/'><button>Sea</button></a>
-          <a href='https://www.freecodecamp.org/'><button>Sky</button></a>
+        <div className = "Buttons">
+          <button type="button" className="btn btn-success btn-lg"
+          data-toggle="button" aria-pressed="false">LAND</button>
+          <button type="button" className="btn btn-primary btn-lg"
+          data-toggle="button" aria-pressed="false">SEA</button>
+          <button type="button" className="btn btn-info btn-lg"
+          data-toggle="button" aria-pressed="false">SKY</button>
+          <button type="button" className="btn btn-danger btn-lg"
+          data-toggle="button" aria-pressed="false">DONATE</button>
         </div>
       </div>
     );
