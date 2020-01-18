@@ -7,23 +7,57 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* @media (prefers-reduced-motion: no-preference) { */
+  /* .App-logo { */
+    /* animation: App-logo-spin infinite 20s linear; */
+  /* } */
+/* } */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .App-header { */
+
+/* } */
+
+.Header {
+  background-color: #0B1023;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.Buttons {
+  overflow: hidden;
+  border: 1px solid #0B1023;
+  background-color: #0B1023;
+}
+
+.Buttons buttons {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 16px;
+  transition: 0.3s;
+}
+
+.Buttons button:hover {
+  background-color: #ddd;
+}
+
+.Buttons button.active {
+  background-color: #ccc;
+}
+
+.Buttonscontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
 
 .App-link {
   color: #61dafb;
