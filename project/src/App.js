@@ -13,21 +13,6 @@ class App extends Component {
         <Header />
         <Body />
 
-        <header className="App-header">
-          
-          <p>
-            Dank memes
-          </p>
-          <a
-            className="App-link"
-            href="https://www.omfgdogs.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Justice for the health of earth
-          </a>
-        </header>
-
       </div>
     );
   }
