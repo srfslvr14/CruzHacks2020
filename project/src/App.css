@@ -13,9 +13,9 @@
   /* } */
 /* } */
 
-.App-header {
+/* .App-header { */
 
-}
+/* } */
 
 .Header {
   background-color: #0B1023;
@@ -26,6 +26,37 @@
   justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Buttons {
+  overflow: hidden;
+  border: 1px solid #0B1023;
+  background-color: white;
+}
+
+.Buttons buttons {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 16px;
+  transition: 0.3s;
+}
+
+.Buttons button:hover {
+  background-color: #ddd;
+}
+
+.Buttons button.active {
+  background-color: #ccc;
+}
+
+.Buttonscontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 .App-link {
