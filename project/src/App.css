@@ -9,6 +9,12 @@
   pointer-events: none;
 }
 
+.card{
+  box-shadow: 
+    0 15px 35px #3a3636ab, 
+    0 5px 15px #000000;
+}
+
 /* @media (prefers-reduced-motion: no-preference) { */
   /* .App-logo { */
     /* animation: App-logo-spin infinite 20s linear; */
