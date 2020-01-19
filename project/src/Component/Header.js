@@ -2,6 +2,7 @@ import React from 'react';
 import earth from './earth.gif';
 
 function Header() {
+    // uh
     return (
       <div>
         <div className = "Header">
