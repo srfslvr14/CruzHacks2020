@@ -4,6 +4,7 @@ import './App.css';
 import { Component } from 'react';
 import Header from './Component/Header';
 import Body from './Component/Body';
+import Footer from './Component/Footer';
 // import elephant from './Component/photos/elephant.jpg';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
 
         <Header />
         <Body />
+        <Footer />
 
       </div>
     );
