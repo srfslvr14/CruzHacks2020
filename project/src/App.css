@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #6D767B;
+  background-color: white;
   min-height: 100vh;
 }
 
@@ -82,11 +82,12 @@
    #52A450 - LAND
    #2E7DF6 - SEA
    #3B8294 - SKY
-   #B8353A - DONATE */
+   #B8353A - DONATE 
+   */
 
 
 .App-link {
-  color: #61dafb;
+  color: #e2dede;
 }
 
 @keyframes App-logo-spin {
