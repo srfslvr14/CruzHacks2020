@@ -48,6 +48,22 @@
   /* color: black; */
 }
 
+.Footer {
+  background-color: rgb(0, 0, 0);
+  background-image: url('forest2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-shadow: 2px 2px #000000;
+  font-size: calc(10px + 2vmin);
+  padding: 70px;
+  color: rgb(255, 251, 251);
+}
 
 .App-logo{
   height: 150px;
